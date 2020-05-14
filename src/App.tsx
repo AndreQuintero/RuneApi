@@ -1,26 +1,33 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import './css/header.css';
+import './css/rune-container.css';
+import './css/home.css';
+import './css/profile.css';
+import './css/footer.css';
+import '../node_modules/@fortawesome/fontawesome-free/css/all.min.css';
+import '../node_modules/@fortawesome/fontawesome-free/js/all.min.js';
+import Header from './components/header';
+import Home from './pages/home/home';
+import Profile from './pages/profile/profile';
+import MercadoGeral from './pages/grand-exchange/mercado-geral';
+import Footer from './components/footer';
 
-function App() {
+const App: React.FC = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+      <Router>
+        <Header />
+          <main className="page-wrap">
+            <Switch>
+              <Route path="/home" component={Home} />
+              <Route path="/profile" component={Profile} />
+              <Route path="/grand-exchange" component={MercadoGeral} />
+              <Route path="/" component={Home} />
+            </Switch>
+          </main>   
+        <Footer />
+      </Router>
+  )
 }
 
 export default App;
