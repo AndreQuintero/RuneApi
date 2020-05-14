@@ -16,5 +16,3 @@ export  const  getProfile = (playerName: string, actives: number):  Promise<Prof
 export const getQuests = (playerName: string): Promise<QuestApi[]> => {
   return new Promise( (resolve, reject) => setTimeout( () => resolve(JSON.parse(QuestsMock)), 1000));
 }
-
-JSON.parse(QuestsMock);
