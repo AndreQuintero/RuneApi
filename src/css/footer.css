@@ -1,0 +1,32 @@
+footer {
+    background: url('../assets/img/sand.jpg');
+    height: 280px;
+   
+}
+
+.footer-row::before{
+    content: '';
+    background: transparent url('../assets/img/borda-runa.png') repeat-x 0 0;
+    width: 100vw;
+    height: 56px;
+}
+
+.footer-title h1 {
+    text-align: center;
+}
+
+.footer-contact {
+    text-align: center;
+}
+
+.footer-sociais {
+    margin-top: 2%;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.social {
+    font-size: 1.5rem;
+    color: black;
+    margin-right: 5px;
+}

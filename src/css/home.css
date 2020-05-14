@@ -1,0 +1,33 @@
+.home {
+    text-decoration:none;
+}
+
+.home figure {
+    text-align: center;
+
+}
+
+.home figcaption {
+    text-align: center;
+    color: #ffde23;
+    font-size: 2rem;
+   
+}
+
+.home {
+    padding: 15px;
+    cursor: pointer;
+}
+.home:hover{
+    background:  transparent url('../assets/img/fundo-rune-container-claro.png') repeat;
+}
+
+.home a {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1023px) {
+    .home figure img {
+        width: 100%;
+    }
+}
