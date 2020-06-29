@@ -1,10 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import './css/header.css';
-import './css/rune-container.css';
-import './css/home.css';
 import './css/profile.css';
-import './css/footer.css';
 import '../node_modules/@fortawesome/fontawesome-free/css/all.min.css';
 import '../node_modules/@fortawesome/fontawesome-free/js/all.min.js';
 import Header from './components/header';

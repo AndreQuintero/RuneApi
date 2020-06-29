@@ -54,3 +54,9 @@ html, body {
   align-items: center;
   justify-content: center;
 }
+
+.in-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

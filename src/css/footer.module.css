@@ -4,22 +4,22 @@ footer {
    
 }
 
-.footer-row::before{
+.footerRow::before{
     content: '';
     background: transparent url('../assets/img/borda-runa.png') repeat-x 0 0;
     width: 100vw;
     height: 56px;
 }
 
-.footer-title h1 {
+.footerTitle h1 {
     text-align: center;
 }
 
-.footer-contact {
+.footerContact {
     text-align: center;
 }
 
-.footer-sociais {
+.footerSociais {
     margin-top: 2%;
     padding-bottom: 15px;
     text-align: center;

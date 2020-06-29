@@ -1,4 +1,4 @@
-.rune-container {
+.runeContainer {
     width: 80% !important;
     margin: auto;
     background:  transparent url('../assets/img/rune-container.png') repeat;
@@ -7,26 +7,20 @@
     margin-bottom: 5%;
 }
 
-.rune-container .row {
+.runeContainer .row {
     height: 100%;
     width: 100%;
     margin: 0;
     padding: 0px;
 }
 
-.rune-container .col {
+.runeContainer .col {
     height: 100%;
-}
-
-.in-center{
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
  
 @media screen and (max-width: 1439px) { 
-    .rune-container { 
+    .runeContainer { 
         width: 90% !important;
     }
 }
