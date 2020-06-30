@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-  
+import Style from '../css/header.module.css';
 
 export default () => (
-   <header className="header">        
+   <header className={Style.header}>        
         <ul>
             <li>
                 <Link to="/">Home</Link>
