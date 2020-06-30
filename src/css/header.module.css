@@ -1,0 +1,38 @@
+.header {
+    background: transparent url('../assets/img/borda-runa.png') repeat-x 0 0;
+    height: 56px;
+    margin-top: -16px;
+  }
+  
+  .header ul {
+    padding: 0 30px;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style-type: none;
+  }
+  
+  .header li {
+    font-size: 1.7rem;
+   
+    cursor: pointer;
+    margin-left: 30px;
+  }
+  
+  .header a:hover {
+    color: #ffde23
+  }
+  
+  .header a {
+    text-decoration: none;
+    color: #b2dbee;
+  
+  }
+  
+  @media screen and (max-width: 767px) {
+     
+  .header li {
+    font-size: 1.2rem;
+  }
+}
