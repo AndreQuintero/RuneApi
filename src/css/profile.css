@@ -1,56 +1,9 @@
-.profile-input-container {
-   padding: 25px;
-   min-height: 300px;
-}
-.profile-input-container h1 {
-    text-align: center;
-    font-size: 3rem;
-    color: #ffde23;
-}
 
-.profile-row::after{
+ .profileRow::after{
     content: '';
     background: transparent url('../assets/img/divisao.png') repeat-x 0 0px;
     width: 100%;
     height: 10px;
-}
-.profile-input-container form{
-    width: 100%;
-}
-.profile-input  {
-    background-color: #010709;
-    border: 1px solid #355563;
-    color: #aed0e0;
-    border-radius: 6px;
-    font-size: 1.3em;
-    width: 35%;
-    padding: 8px 12px;
-    margin-right: 4px;
-}
-
-.profile-input::placeholder   {
-    font-style: italic;
-    color: #aed0e0;
-    opacity: 0.5;
-}
-
-.profile-input::-moz-placeholder {
-    font-style: italic;
-    color: #aed0e0;
-    opacity: 0.5;
-} 
-.profile-input::-webkit-input-placeholder {
-    font-style: italic;
-    color: #aed0e0;
-    opacity: 0.5;
-}
-
-.profile-button {
-    background: transparent url('../assets/img/icons.png') no-repeat 0 -213px;
-    border: none;
-    width: 56px;
-    height: 56px;
-    cursor: pointer
 }
 
 .profile-character{
